@@ -1,11 +1,11 @@
 <template>
      <article class="max-w-xs">
-        <a href="#">
+        <nuxt-link to="/posts/1">
             <img src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/article/blog-1.png"
                 class="mb-5 rounded-lg" alt="Image 1">
-        </a>
+        </nuxt-link>
         <h2 class="mb-2 text-xl font-bold leading-tight text-gray-900 dark:text-white">
-            <a href="#">Our first office</a>
+            <nuxt-link to="/posts/2">Our first office</nuxt-link>
         </h2>
         <p class="mb-4 font-light text-gray-500 dark:text-gray-400">Over the past year, Volosoft has undergone
             many changes! After months of preparation.</p>
